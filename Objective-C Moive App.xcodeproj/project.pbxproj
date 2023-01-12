@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0218147B296F450B00E44DAF /* movieTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 02181479296F450B00E44DAF /* movieTableCell.m */; };
+		0218147C296F450B00E44DAF /* movieTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0218147A296F450B00E44DAF /* movieTableCell.xib */; };
 		02F9A4B9296F27830006F623 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 02F9A4B8296F27830006F623 /* AppDelegate.m */; };
 		02F9A4BC296F27830006F623 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 02F9A4BB296F27830006F623 /* SceneDelegate.m */; };
 		02F9A4BF296F27830006F623 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 02F9A4BE296F27830006F623 /* ViewController.m */; };
@@ -14,9 +16,14 @@
 		02F9A4C4296F27840006F623 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02F9A4C3296F27840006F623 /* Assets.xcassets */; };
 		02F9A4C7296F27840006F623 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02F9A4C5296F27840006F623 /* LaunchScreen.storyboard */; };
 		02F9A4CA296F27840006F623 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 02F9A4C9296F27840006F623 /* main.m */; };
+		02F9A4D2296F3E920006F623 /* DetailViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 02F9A4D1296F3E920006F623 /* DetailViewViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		02181478296F450B00E44DAF /* movieTableCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = movieTableCell.h; sourceTree = "<group>"; };
+		02181479296F450B00E44DAF /* movieTableCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = movieTableCell.m; sourceTree = "<group>"; };
+		0218147A296F450B00E44DAF /* movieTableCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = movieTableCell.xib; sourceTree = "<group>"; };
+		02181484296FF0C400E44DAF /* popModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = popModel.h; sourceTree = "<group>"; };
 		02F9A4B4296F27830006F623 /* Objective-C Moive App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Objective-C Moive App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		02F9A4B7296F27830006F623 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		02F9A4B8296F27830006F623 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -29,6 +36,8 @@
 		02F9A4C6296F27840006F623 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		02F9A4C8296F27840006F623 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		02F9A4C9296F27840006F623 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		02F9A4D0296F3E920006F623 /* DetailViewViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewViewController.h; sourceTree = "<group>"; };
+		02F9A4D1296F3E920006F623 /* DetailViewViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,11 +76,17 @@
 				02F9A4BB296F27830006F623 /* SceneDelegate.m */,
 				02F9A4BD296F27830006F623 /* ViewController.h */,
 				02F9A4BE296F27830006F623 /* ViewController.m */,
+				02F9A4D0296F3E920006F623 /* DetailViewViewController.h */,
+				02F9A4D1296F3E920006F623 /* DetailViewViewController.m */,
 				02F9A4C0296F27830006F623 /* Main.storyboard */,
 				02F9A4C3296F27840006F623 /* Assets.xcassets */,
 				02F9A4C5296F27840006F623 /* LaunchScreen.storyboard */,
 				02F9A4C8296F27840006F623 /* Info.plist */,
 				02F9A4C9296F27840006F623 /* main.m */,
+				02181478296F450B00E44DAF /* movieTableCell.h */,
+				02181479296F450B00E44DAF /* movieTableCell.m */,
+				0218147A296F450B00E44DAF /* movieTableCell.xib */,
+				02181484296FF0C400E44DAF /* popModel.h */,
 			);
 			path = "Objective-C Moive App";
 			sourceTree = "<group>";
@@ -136,6 +151,7 @@
 				02F9A4C7296F27840006F623 /* LaunchScreen.storyboard in Resources */,
 				02F9A4C4296F27840006F623 /* Assets.xcassets in Resources */,
 				02F9A4C2296F27830006F623 /* Main.storyboard in Resources */,
+				0218147C296F450B00E44DAF /* movieTableCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -147,7 +163,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				02F9A4BF296F27830006F623 /* ViewController.m in Sources */,
+				0218147B296F450B00E44DAF /* movieTableCell.m in Sources */,
 				02F9A4B9296F27830006F623 /* AppDelegate.m in Sources */,
+				02F9A4D2296F3E920006F623 /* DetailViewViewController.m in Sources */,
 				02F9A4CA296F27840006F623 /* main.m in Sources */,
 				02F9A4BC296F27830006F623 /* SceneDelegate.m in Sources */,
 			);
